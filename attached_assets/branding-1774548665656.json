@@ -1,0 +1,140 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Gilroy",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#F64747",
+    "accent": "#F64747",
+    "background": "#FFFFFF",
+    "textPrimary": "#333333",
+    "link": "#4267B2"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Gilroy",
+      "heading": "Gilroy"
+    },
+    "fontStacks": {
+      "heading": [
+        "Gilroy",
+        "sans-serif"
+      ],
+      "body": [
+        "Gilroy",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Gilroy",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "32px",
+      "h2": "29px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "2px"
+  },
+  "components": {
+    "input": {
+      "background": "#EFEFEF",
+      "textColor": "#333333",
+      "borderColor": null,
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#000000",
+      "textColor": "#333333",
+      "borderRadius": "4px",
+      "borderRadiusCorners": {
+        "topLeft": "4px",
+        "topRight": "4px",
+        "bottomRight": "4px",
+        "bottomLeft": "4px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#FFFFFF",
+      "textColor": "#333333",
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "https://momo.rent/images/logo-white.png?v=1",
+    "favicon": "https://www.rentacarskopje.com/images/icons/fav-momo.png",
+    "ogImage": "images/logo.png",
+    "logoHref": "File saved at: attached_assets/logoHref.html",
+    "logoAlt": "RENT A CAR MOMO SKOPJE"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 1,
+    "reasoning": "Selected #1 because it is visible, larger, and matches the brand name 'MOMO - Rent a Car Skopje Macedonia'. It is positioned at the top and links to the homepage, making it the primary logo.",
+    "confidence": 0.85,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "Book your vehicle",
+      "reasoning": "Button #0 ('Book your vehicle') is likely the primary CTA due to its action-oriented text and prominent placement. It uses a dark background, which stands out against the light theme of the site."
+    },
+    "secondary": {
+      "index": 4,
+      "text": "Search",
+      "reasoning": "Button #4 ('Search') is selected as secondary because it has a different background color (white) and serves a supportive function to the primary action."
+    },
+    "confidence": 0.9
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "travelers and car renters in Skopje, Macedonia"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.9,
+    "colors": 0.95,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 1,
+        "selectedLogoReasoning": "Selected #1 because it is visible, larger, and matches the brand name 'MOMO - Rent a Car Skopje Macedonia'. It is positioned at the top and links to the homepage, making it the primary logo.",
+        "confidence": 0.85
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

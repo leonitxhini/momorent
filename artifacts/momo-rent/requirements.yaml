@@ -1,0 +1,8 @@
+packages:
+  "framer-motion": "For premium 2026-style page transitions and scroll animations"
+  "clsx": "For conditional class merging in UI components"
+  "tailwind-merge": "For merging tailwind classes safely"
+  "date-fns": "For formatting dates in the booking form"
+notes:
+  - "This is a frontend-only app as requested. Form submissions and bookings are mocked with toasts."
+  - "Using Unsplash for the hero background and provided Momo URLs for cars/news."
