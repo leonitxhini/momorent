@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "weccUm6rVHZBhReZP_gLC"
+uri = "file://momo-rent-cloudflare.zip"
+type = "unspecified"
+title = "MOMO Car Rental – Cloudflare Pages"
