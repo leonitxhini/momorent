@@ -1,0 +1,40 @@
+2026-03-26T18:40:16.058794Z	Cloning repository...
+2026-03-26T18:40:16.993311Z	From https://github.com/leonitxhini/momorent
+2026-03-26T18:40:16.993732Z	 * branch            34eda78232e4fbac5267fbe017f87faf921c4130 -> FETCH_HEAD
+2026-03-26T18:40:16.993825Z	
+2026-03-26T18:40:17.011056Z	HEAD is now at 34eda78 Add files via upload
+2026-03-26T18:40:17.01127Z	
+2026-03-26T18:40:17.053212Z	
+2026-03-26T18:40:17.053626Z	Using v2 root directory strategy
+2026-03-26T18:40:17.06639Z	Success: Finished cloning repository files
+2026-03-26T18:40:18.815953Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-03-26T18:40:18.816341Z	
+2026-03-26T18:40:19.908207Z	No Wrangler configuration file found. Continuing.
+2026-03-26T18:40:20.163939Z	Detected the following tools from environment: nodejs@22.22.0
+2026-03-26T18:40:20.165507Z	Installing nodejs 22.22.0
+2026-03-26T18:40:21.110163Z	Trying to update node-build... ok
+2026-03-26T18:40:21.162191Z	To follow progress, use 'tail -f /tmp/node-build.20260326184021.798.log' or pass --verbose
+2026-03-26T18:40:21.207852Z	Downloading node-v22.22.0-linux-x64.tar.gz...
+2026-03-26T18:40:21.47284Z	-> https://nodejs.org/dist/v22.22.0/node-v22.22.0-linux-x64.tar.gz
+2026-03-26T18:40:23.982639Z	
+2026-03-26T18:40:23.982916Z	WARNING: node-v22.22.0-linux-x64 is in LTS Maintenance mode and nearing its end of life.
+2026-03-26T18:40:23.982987Z	It only receives *critical* security updates, *critical* bug fixes and documentation updates.
+2026-03-26T18:40:23.983054Z	
+2026-03-26T18:40:23.983111Z	Installing node-v22.22.0-linux-x64...
+2026-03-26T18:40:24.639328Z	Installed node-v22.22.0-linux-x64 to /opt/buildhome/.asdf/installs/nodejs/22.22.0
+2026-03-26T18:40:24.639709Z	
+2026-03-26T18:40:25.246956Z	Executing user command: BASE_PATH=/ pnpm --filter @workspace/momo-rent run build
+2026-03-26T18:40:25.391526Z	No preset version installed for command pnpm
+2026-03-26T18:40:25.391746Z	Please install a version by running one of the following:
+2026-03-26T18:40:25.3918Z	
+2026-03-26T18:40:25.391834Z	asdf install nodejs 22.22.0
+2026-03-26T18:40:25.391863Z	
+2026-03-26T18:40:25.391895Z	or add one of the following versions in your config file at /opt/buildhome/.tool-versions
+2026-03-26T18:40:25.394172Z	nodejs 14.21.3
+2026-03-26T18:40:25.394352Z	nodejs 16.20.2
+2026-03-26T18:40:25.394451Z	nodejs 18.17.1
+2026-03-26T18:40:25.394543Z	nodejs 20.19.0
+2026-03-26T18:40:25.394684Z	nodejs 22.16.0
+2026-03-26T18:40:25.396764Z	Failed: Error while executing user command. Exited with error code: 126
+2026-03-26T18:40:25.403016Z	Failed: build command exited with code: 1
+2026-03-26T18:40:26.569124Z	Failed: error occurred while running build command
